@@ -12,14 +12,6 @@ router.get(
     },
 );
 
-router.post('/',
-    async (req: Request, res: Response): Promise<Response> => {
-      console.log(req.body);
-      return res.status(200).send({
-        message: 'POST!',
-        ...req.body,
-      });
-    },
-);
+router.post('/',);
 
 export {router as kintoneRouter};
