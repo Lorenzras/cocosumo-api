@@ -12,6 +12,6 @@ router.get(
     },
 );
 
-router.post('/',);
+router.post('/', )
 
 export {router as kintoneRouter};
